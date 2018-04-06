@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-nativeaudio",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "description": "Cordova/PhoneGap Plugin for low latency Native Audio Playback, must have for HTML5 games",
   "cordova": {
     "id": "cordova-plugin-nativeaudio",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatinghotpot/cordova-plugin-nativeaudio.git"
+    "url": "https://github.com/pklime2/cordova-plugin-nativeaudio"
   },
   "bugs": {
     "url": "https://github.com/floatinghotpot/cordova-plugin-nativeaudio/issues"
@@ -28,13 +28,23 @@
   "author": {
     "name": "Andrew Trice"
   },
-  "contributors": [{
-    "name": "Andrew Trice"
-  },{
-    "name": "Raymond Xie",
-    "email": "rjfun.mobile@gmail.com"
-  },{
-    "name": "Sidney Bofah"
-  }],
-  "license": "MIT"
+  "contributors": [
+    {
+      "name": "Andrew Trice"
+    },
+    {
+      "name": "Raymond Xie",
+      "email": "rjfun.mobile@gmail.com"
+    },
+    {
+      "name": "Sidney Bofah"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "@ionic-native/core": "^4.6.0"
+  }
 }
